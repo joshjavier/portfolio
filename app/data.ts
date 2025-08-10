@@ -27,6 +27,11 @@ type SocialLink = {
   link: string
 }
 
+export const NAME = 'Josh Javier'
+export const ROLE = 'Full Stack Developer'
+export const INTRODUCTION =
+  'I build fast, accessible, and user-friendly web applications, combining front-end precision with back-end efficiency to deliver seamless digital experiences.'
+
 export const PROJECTS: Project[] = [
   {
     name: 'Motion Primitives Pro',
