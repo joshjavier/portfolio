@@ -10,12 +10,9 @@ import {
   MorphingDialogClose,
   MorphingDialogContainer,
 } from '@/components/ui/morphing-dialog'
-import Link from 'next/link'
-import { AnimatedBackground } from '@/components/ui/animated-background'
 import {
   PROJECTS,
   WORK_EXPERIENCE,
-  BLOG_POSTS,
   EMAIL,
   SOCIAL_LINKS,
   INTRODUCTION,
@@ -159,7 +156,7 @@ export default function Personal() {
                   target="_blank"
                 >
                   {project.name}
-                  <span className="absolute bottom-0.5 left-0 block h-[1px] w-full max-w-0 bg-zinc-900 dark:bg-zinc-50 transition-all duration-200 group-hover:max-w-full"></span>
+                  <span className="absolute bottom-0.5 left-0 block h-[1px] w-full max-w-0 bg-zinc-900 transition-all duration-200 group-hover:max-w-full dark:bg-zinc-50"></span>
                 </a>
                 <p className="text-base text-zinc-600 dark:text-zinc-400">
                   {project.description}
@@ -199,7 +196,7 @@ export default function Personal() {
                     </p>
                   </div>
                   <p className="text-zinc-600 dark:text-zinc-400">
-                    {job.start} - {job.end}
+                    {job.start} &ndash; {job.end}
                   </p>
                 </div>
               </div>
@@ -208,7 +205,7 @@ export default function Personal() {
         </div>
       </motion.section>
 
-      <motion.section
+      {/* <motion.section
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
       >
@@ -242,7 +239,7 @@ export default function Personal() {
             ))}
           </AnimatedBackground>
         </div>
-      </motion.section>
+      </motion.section> */}
 
       <motion.section
         variants={VARIANTS_SECTION}
