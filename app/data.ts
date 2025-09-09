@@ -39,7 +39,7 @@ export const PROJECTS: Project[] = [
       'Interactive word-guessing game built with the finite state machine pattern.',
     link: 'https://hangman-game-fem.pages.dev/',
     video:
-      'https://res.cloudinary.com/dw2uqa4iu/video/upload/v1757445692/demo-hangman-game-compressed_tm2unj.mp4',
+      'https://res.cloudinary.com/dw2uqa4iu/video/upload/v1757445692/github.com/joshjavier/portfolio/demo-hangman-game-compressed_tm2unj.mp4',
     id: 'project1',
   },
   {
