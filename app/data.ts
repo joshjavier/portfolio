@@ -39,7 +39,7 @@ export const PROJECTS: Project[] = [
       'Interactive word-guessing game built with the finite state machine pattern.',
     link: 'https://hangman-game-fem.pages.dev/',
     video:
-      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/newProfileItem/d898be8a-7037-4c71-af0c-8997239b050d.mp4?_a=DATAdtAAZAA0',
+      'https://res.cloudinary.com/dw2uqa4iu/video/upload/v1757445692/demo-hangman-game-compressed_tm2unj.mp4',
     id: 'project1',
   },
   {
@@ -47,7 +47,7 @@ export const PROJECTS: Project[] = [
     description: 'Internal tool for assembling game tiles on marketing pages.',
     link: 'https://gametiles.vercel.app/',
     video:
-      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
+      'https://res.cloudinary.com/dw2uqa4iu/video/upload/v1757445418/github.com/joshjavier/portfolio/demo-game-tiles-compressed_lywes6.mp4',
     id: 'project2',
   },
   {
@@ -56,7 +56,7 @@ export const PROJECTS: Project[] = [
       'Internal tool for compressing images entirely on the client side.',
     link: 'https://compressroar.netlify.app/',
     video:
-      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
+      'https://res.cloudinary.com/dw2uqa4iu/video/upload/v1757445581/github.com/joshjavier/portfolio/demo-image-compressroar-compressed_lljmn0.mp4',
     id: 'project2',
   },
 ]
